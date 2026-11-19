@@ -698,6 +698,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IncompletoBot
   target: {fileID: 263489828}
+  wanderRadius: 2
+  wanderDistance: 3
+  wanderJitter: 1
+  obstacles:
+  - {fileID: 232433729}
+  - {fileID: 1575707759}
+  - {fileID: 1818977514}
+  - {fileID: 933853546}
+  hideDistance: 2
 --- !u!195 &1191975313
 NavMeshAgent:
   m_ObjectHideFlags: 0
